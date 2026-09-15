@@ -1,10 +1,10 @@
-.pagina-inicio {
+.inicio {
   overflow-x: hidden;
 }
 
 /* Sección héroe */
 
-.pagina-inicio .seccion-heroe {
+.inicio .hero {
   padding: 136px 0 80px;
   background-image:
     linear-gradient(to bottom, rgba(11, 11, 13, 0.85), rgba(11, 11, 13, 0.95)),
@@ -14,13 +14,13 @@
   background-color: #0b0b0d;
 }
 
-.pagina-inicio .linea-superior {
+.inicio .subtitulo {
   font-size: 14px;
   color: #e63946;
   margin-bottom: 12px;
 }
 
-.pagina-inicio .titulo-heroe {
+.inicio .titulo1 {
   font-family: "Space Grotesk", "Inter", sans-serif;
   font-weight: 600;
   font-size: 48px;
@@ -30,12 +30,12 @@
 }
 
 @media (max-width: 768px) {
-  .pagina-inicio .titulo-heroe {
+  .inicio .titulo1 {
     font-size: 35px;
   }
 }
 
-.pagina-inicio .texto-heroe {
+.inicio .parrafo1 {
   font-size: 17px;
   line-height: 1.6;
   color: #9a9aa1;
@@ -43,24 +43,24 @@
   margin: 20px 0 32px;
 }
 
-.pagina-inicio .acciones-heroe {
+.inicio .botones {
   margin-bottom: 56px;
 }
 
-.pagina-inicio .boton-grande {
+.inicio .boton-grande {
   padding: 13px 28px;
   font-size: 16px;
 }
 
 /* Franja de números (5 tipos de vehículo, 24/7, etc.) */
 
-.pagina-inicio .franja-confianza {
+.inicio .numeros {
   border-top: 1px solid rgba(244, 244, 242, 0.1);
   margin-top: 56px;
   padding-top: 32px;
 }
 
-.pagina-inicio .dato-numero {
+.inicio .numero {
   font-family: "Space Grotesk", "Inter", sans-serif;
   font-size: 26px;
   font-weight: 600;
@@ -68,7 +68,7 @@
   margin-bottom: 2px;
 }
 
-.pagina-inicio .dato-etiqueta {
+.inicio .numero-texto {
   font-size: 14px;
   color: #9a9aa1;
   margin-bottom: 0;
@@ -76,21 +76,21 @@
 
 /* Tarjeta buscador (el recuadro de la derecha) */
 
-.pagina-inicio .tarjeta-buscador {
+.inicio .caja-busqueda {
   background-color: #17171a;
   border: 1px solid rgba(244, 244, 242, 0.1);
   border-radius: 10px;
   padding: 28px;
 }
 
-.pagina-inicio .tarjeta-buscador-titulo {
+.inicio .busqueda-titulo {
   font-family: "Space Grotesk", "Inter", sans-serif;
   font-size: 18px;
   color: #f4f4f2;
   margin-bottom: 18px;
 }
 
-.pagina-inicio .fila-tipo-vehiculo {
+.inicio .opcion-vehiculo {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,17 +102,17 @@
   font-size: 15px;
 }
 
-.pagina-inicio .fila-tipo-vehiculo:hover {
+.inicio .opcion-vehiculo:hover {
   background-color: rgba(230, 57, 70, 0.14);
 }
 
-.pagina-inicio .flecha-tipo {
+.inicio .flecha {
   color: #e63946;
 }
 
 /* Botones generales */
 
-.pagina-inicio .boton {
+.inicio .boton {
   font-weight: 500;
   border-radius: 4px;
   text-decoration: none;
@@ -120,35 +120,35 @@
   text-align: center;
 }
 
-.pagina-inicio .boton-acento {
+.inicio .boton-rojo {
   background-color: #e63946;
   color: #ffffff;
   border: 1px solid #e63946;
 }
 
-.pagina-inicio .boton-acento:hover {
+.inicio .boton-rojo:hover {
   background-color: #cf2e3a;
 }
 
-.pagina-inicio .boton-fantasma {
+.inicio .boton-blanco {
   background-color: transparent;
   color: #f4f4f2;
   border: 1px solid rgba(244, 244, 242, 0.1);
 }
 
-.pagina-inicio .boton-fantasma:hover {
+.inicio .boton-blanco:hover {
   border-color: #f4f4f2;
 }
 
 /* Sección tipos de vehículo */
 
-.pagina-inicio .seccion-tipos {
+.inicio .tipos {
   padding: 96px 0;
   background-color: #0b0b0d;
   border-top: 1px solid rgba(244, 244, 242, 0.1);
 }
 
-.pagina-inicio .titulo-seccion {
+.inicio .titulo2 {
   font-family: "Space Grotesk", "Inter", sans-serif;
   font-weight: 600;
   font-size: 35px;
@@ -156,18 +156,18 @@
   margin-bottom: 0;
 }
 
-.pagina-inicio .titulo-seccion-claro {
+.inicio .titulo2-centro {
   text-align: center;
   margin-bottom: 8px;
 }
 
-.pagina-inicio .texto-seccion {
+.inicio .parrafo2 {
   color: #9a9aa1;
   font-size: 16px;
   line-height: 1.6;
 }
 
-.pagina-inicio .tarjeta-vehiculo {
+.inicio .caja-vehiculo {
   height: 100%;
   background-color: #17171a;
   border: 1px solid rgba(244, 244, 242, 0.1);
@@ -175,32 +175,32 @@
   padding: 32px;
 }
 
-.pagina-inicio .tarjeta-vehiculo:hover {
+.inicio .caja-vehiculo:hover {
   border-color: #e63946;
 }
 
-.pagina-inicio .tarjeta-vehiculo-numero {
+.inicio .caja-numero {
   font-family: "Space Grotesk", "Inter", sans-serif;
   color: #e63946;
   font-size: 15px;
   margin-bottom: 16px;
 }
 
-.pagina-inicio .tarjeta-vehiculo-titulo {
+.inicio .caja-titulo {
   font-family: "Space Grotesk", "Inter", sans-serif;
   font-size: 21px;
   color: #f4f4f2;
   margin-bottom: 10px;
 }
 
-.pagina-inicio .tarjeta-vehiculo-texto {
+.inicio .caja-texto {
   color: #9a9aa1;
   font-size: 15px;
   line-height: 1.55;
   margin-bottom: 0;
 }
 
-.pagina-inicio .tarjeta-vehiculo-cta {
+.inicio .caja-cta {
   background-color: #1f1f23;
   display: flex;
   flex-direction: column;
@@ -209,20 +209,20 @@
 
 /* Sección cómo funciona */
 
-.pagina-inicio .seccion-proceso {
+.inicio .proceso {
   padding: 96px 0;
   background-color: #17171a;
   border-top: 1px solid rgba(244, 244, 242, 0.1);
   border-bottom: 1px solid rgba(244, 244, 242, 0.1);
 }
 
-.pagina-inicio .paso-proceso {
+.inicio .paso {
   height: 100%;
   padding-top: 24px;
   border-top: 2px solid #e63946;
 }
 
-.pagina-inicio .paso-proceso-numero {
+.inicio .paso-numero {
   font-family: "Space Grotesk", "Inter", sans-serif;
   font-size: 32px;
   color: #f4f4f2;
@@ -230,14 +230,14 @@
   margin-bottom: 8px;
 }
 
-.pagina-inicio .paso-proceso-titulo {
+.inicio .paso-titulo {
   font-family: "Space Grotesk", "Inter", sans-serif;
   font-size: 18px;
   color: #f4f4f2;
   margin-bottom: 8px;
 }
 
-.pagina-inicio .paso-proceso-texto {
+.inicio .paso-texto {
   color: #9a9aa1;
   font-size: 15px;
   line-height: 1.55;
@@ -246,32 +246,32 @@
 
 /* Sección de llamado a la acción final */
 
-.pagina-inicio .seccion-cta-final {
+.inicio .final {
   padding: 96px 0;
   background-color: #0b0b0d;
 }
 
-.pagina-inicio .tarjeta-cta-final {
+.inicio .caja-final {
   background-color: #17171a;
   border: 1px solid rgba(244, 244, 242, 0.1);
   border-radius: 12px;
   padding: 48px;
 }
 
-.pagina-inicio .titulo-cta-final {
+.inicio .titulo-final {
   font-family: "Space Grotesk", "Inter", sans-serif;
   font-size: 30px;
   color: #f4f4f2;
   margin-bottom: 10px;
 }
 
-.pagina-inicio .texto-cta-final {
+.inicio .texto-final {
   color: #9a9aa1;
   margin-bottom: 0;
 }
 
 @media (max-width: 991px) {
-  .pagina-inicio .tarjeta-cta-final {
+  .inicio .caja-final {
     text-align: center;
     padding: 36px;
   }
